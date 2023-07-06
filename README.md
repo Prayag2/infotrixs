@@ -7,9 +7,3 @@ This is the Infotrixs project repository I created working as an intern.
 
 ### LICENSE
 You are not permitted to modify, distribute or copy this website in any way.  
-
-### Testing
-1. Clone this repository.
-2. Run `pip install -r requirements.txt`
-3. Run `python manage.py runserver 8080` to run the server
-4. Open `http://localhost:8080/` in your web browser.
