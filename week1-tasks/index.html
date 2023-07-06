@@ -1,0 +1,83 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Prayag Jain | Personal Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+
+        <div class="scroll-container">
+            <!-- Animated Wave Background -->
+            <div id="bg-one" class="bgHome">
+                <img src="./assets/bg-one-layer-three.svg" class="layer-three"/>
+                <img src="./assets/bg-one-layer-two.svg" class="layer-two"/>
+                <img src="./assets/bg-one-layer-one.svg" class="layer-one"/>
+            </div>
+
+            <!-- Home -->
+            <section class="home to-hide" data-fn-intro="homeintro()" data-wave-class="bgHome">
+                <nav>
+                    <a class="nav-link link" data-href="1">About Me</a>
+                    <a class="nav-link link" data-href="2">Projects</a>
+                    <a class="nav-link link" data-href="3">Contact Me</a>
+                </nav>
+                <div class="home-image">
+                    <img src="./assets/image.png" alt="My Picture" class="home-image-me"/>
+                    <img src="./assets/ring.svg" class="home-image-ring" />
+                </div>
+                <div class="home-text">
+                    <h1 class="title shadow">Hi, I'm Prayag Jain</h1>
+                    <p class="subtitle">I am <span class="typewriter" data-text="a Linux enthusiast.,a FOSS fanatic.,a keen learner.,a passionate student."></span></p>
+                    <a class="button link" data-href="1">More About Me</a>
+                </div>
+            </section>
+
+            <!-- About Me -->
+            <section class="about to-hide hidden" data-fn-intro="aboutintro()" data-wave-class="bgAbout">
+                <h1 class="shadow black">About Me</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                <a class="left button link corner" data-href="0">Go Back</a>
+            </section>
+
+            <!-- Projects -->
+            <section class="projects to-hide hidden scroll" data-fn-intro="projectsintro()" data-wave-class="bgProjects">
+                <div class="projects-wrapper">
+                    <h1 class="shadow black title">Popular GitHub Projects</h1>
+                </div>
+            </section>
+
+            <!-- Contact -->
+            <section class="contact to-hide hidden" data-fn-intro="contactintro()" data-wave-class="bgContact">
+                <div class="contact-wrapper">
+                    <h1 class="shadow black">Contact Me</h1>
+                    <form method="POST" id="contact-form">
+                        <input type="text" name="name" placeholder="Full Name" required/>
+                        <input type="email" name="email" placeholder="Email Address" required/>
+                        <textarea name="message" placeholder="Your Message Here" required/></textarea>
+                        <button class="button bg">Send Message</button>
+                    </form>
+                </div>
+                <a class="button link corner right bg" data-href="0">Go Back</a>
+            </section>
+
+            <!-- Script -->
+            <script type="text/javascript" src="typewriter.js"></script>
+            <script type="text/javascript" src="script.js"></script>
+            <script type="text/javascript" src="github.js"></script>
+        </div>
+    </body>
+</html>
